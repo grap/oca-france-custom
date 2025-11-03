@@ -1,0 +1,49 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oca_france_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 22:06+0000\n"
+"PO-Revision-Date: 2025-11-03 22:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oca_france_base
+#: model_terms:ir.ui.view,arch_db:oca_france_base.view_res_partner_kanban
+msgid "<i class=\"fa fa-users me-1\" title=\"Odoo Workers\"/>"
+msgstr "<i class=\"fa fa-users me-1\" title=\"Travailleurs Odoo\"/>"
+
+#. module: oca_france_base
+#: model:ir.model,name:oca_france_base.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: oca_france_base
+#: model:ir.model.fields,help:oca_france_base.field_res_partner__odoo_worker_qty
+#: model:ir.model.fields,help:oca_france_base.field_res_users__odoo_worker_qty
+msgid ""
+"Number of people working on Odoo. (Developer, trainer, functional, "
+"management staff). This information will be used to calculate the amount of "
+"the membership fee for the association."
+msgstr "Nombre de personnes travaillant sur Odoo. "
+" (Développeurs, formateurs, fonctionels, personel d'encadrement, etc)."
+" Cette information est utilisée pour calculer le montant de la cotisation"
+" à l'association."
+
+#. module: oca_france_base
+#: model:ir.model.fields,field_description:oca_france_base.field_res_partner__odoo_worker_qty
+#: model:ir.model.fields,field_description:oca_france_base.field_res_users__odoo_worker_qty
+msgid "Odoo Workers"
+msgstr "Travailleurs Odoo"
+
+#. module: oca_france_base
+#: model_terms:ir.ui.view,arch_db:oca_france_base.view_res_partner_search
+msgid "With Odoo workers"
+msgstr "Avec des travailleurs Odoo"
