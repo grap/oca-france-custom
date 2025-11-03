@@ -17,7 +17,11 @@ This repository contains custom Odoo modules, used for the OCA instance hosted o
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[oca_france_base](oca_france_base/) | 18.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Base customization for the OCA France Instance
 
 [//]: # (end addons)
 
