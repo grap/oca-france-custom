@@ -1,5 +1,5 @@
 # Do NOT update manually; changes here will be overwritten by Copier
-_commit: a841320
+_commit: bb1e532
 _src_path: https://github.com/oca-france/oca-addons-repo-template
 additional_ruff_rules: []
 ci: GitHub
