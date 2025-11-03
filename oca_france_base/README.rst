@@ -79,6 +79,14 @@ Contributors
 Maintainers
 -----------
 
+.. |maintainer-legalsylvain| image:: https://github.com/legalsylvain.png?size=40px
+    :target: https://github.com/legalsylvain
+    :alt: legalsylvain
+
+Current maintainer:
+
+|maintainer-legalsylvain| 
+
 This module is part of the `oca-france/oca-france-custom <https://github.com/oca-france/oca-france-custom/tree/18.0/oca_france_base>`_ project on GitHub.
 
 You are welcome to contribute.

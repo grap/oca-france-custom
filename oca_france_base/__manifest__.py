@@ -9,6 +9,7 @@
     "author": "GRAP, OCA France",
     "website": "https://www.oca-france.fr",
     "depends": ["base"],
+    "maintainers": ["legalsylvain"],
     "data": [
         "views/view_res_partner.xml",
     ],
