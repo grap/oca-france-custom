@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2025-Today: OCA France
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="demo_partner_grap" model="res.partner">
+        <field name="name">GRAP</field>
+        <field name="is_company" eval="True" />
+        <field name="street">3 grande rue des Feuillants</field>
+        <field name="zip">69001</field>
+        <field name="city">Lyon</field>
+        <field name="country_id" ref="base.fr" />
+        <field name="website">https://www.grap.coop/</field>
+        <field
+            name="image_1920"
+            type="base64"
+            file="oca_france_base/static/img/demo_partner_grap-image.png"
+        />
+        <field name="vat">FR31790058572</field>
+        <field name="odoo_worker_qty">4</field>
+    </record>
+
+    <record id="demo_partner_auneor" model="res.partner">
+        <field name="name">Auneor Conseil</field>
+        <field name="is_company" eval="True" />
+        <field name="street">920, route de l'isle sur la sorgue</field>
+        <field name="zip">84250</field>
+        <field name="city">Le Thor</field>
+        <field name="country_id" ref="base.fr" />
+        <field name="website">https://www.auneor-conseil.fr/</field>
+        <field
+            name="image_1920"
+            type="base64"
+            file="oca_france_base/static/img/demo_partner_auneor-conseil-image.png"
+        />
+        <field name="vat">FR13801609132</field>
+        <field name="odoo_worker_qty">9</field>
+    </record>
+</odoo>
