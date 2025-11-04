@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2025-Today: OCA France
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="oca_france_base.demo_partner_grap" model="res.partner">
+        <field name="free_member" eval="True" />
+    </record>
+
+    <record id="oca_france_base.demo_partner_auneor" model="res.partner">
+        <field name="free_member" eval="True" />
+    </record>
+</odoo>
