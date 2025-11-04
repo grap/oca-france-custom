@@ -10,10 +10,6 @@
     "website": "https://www.oca-france.fr",
     "depends": ["base"],
     "maintainers": ["legalsylvain"],
-    "data": [
-        "views/view_res_partner.xml",
-    ],
-    "demo": [
-        "demo/res_partner.xml",
-    ],
+    "data": ["views/view_res_partner.xml"],
+    "demo": ["demo/res_partner.xml"],
 }
