@@ -1,8 +1,11 @@
 [project]
 name = "odoo-addons-oca-france-oca-france-custom"
-version = "18.0.20251103.0"
+version = "18.0.20251106.0"
 dependencies = [
     "odoo-addon-oca_france_base==18.0.*",
+    "odoo-addon-oca_france_membership==18.0.*",
+    "odoo-addon-oca_france_website_membership==18.0.*",
+    "odoo-addon-oca_france_website_partner==18.0.*",
 ]
 classifiers=[
     "Programming Language :: Python",
