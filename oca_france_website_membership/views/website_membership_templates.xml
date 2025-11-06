@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="index" inherit_id="website_membership.index">
+        <xpath expr="//span[@t-field='partner.display_name']/.." position="after">
+            <span t-if="partner.odoo_worker_qty" style="font-style:italic;color: gray;">
+                    (Odoo Team : <t t-out="partner.odoo_worker_qty" /> Members)
+                </span>
+        </xpath>
+    </template>
+</odoo>

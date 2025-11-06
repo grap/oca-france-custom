@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2025-Today: OCA France
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="oca_france_base.demo_partner_grap" model="res.partner">
+        <field name="is_published" eval="True" />
+        <field
+            name="website_short_description"
+        >Coopérative d'activité et d'emploi en Rhône Alpes dédiée aux activités de l'alimentation.</field>
+
+        <field name="website_description">
+            <![CDATA[<p>
+            Grap est une coopérative d’indépendant·es dans l’alimentation bio-locale dans la région Rhône-Alpes. Elle regroupe 65 activités (environ 250 personnes) allant de l’épicerie à la restauration, en passant par des torréfacteur·ice·s, des brasseur·euse·s de bières, des boulanger·ère·s etc. Une équipe support aide notamment ses activités en s’occupant de tâches administratives, en réalisant leurs contrats de travail, leurs fiches de paie, en les accompagnant d’un point de vue métier, juridique et financier etc. <a href="https://www.grap.coop">Plus d’infos</a>.
+            <br /><br />
+            Un des piliers de la coopérative est l’internalisation du service informatique pour rendre les grapien·ne·s autonomes avec des outils informatiques Libres qui répondent à leurs besoins métier. Le pôle informatique est composé de 4 personnes qui développons, administrons, documentons, formons les activités à :
+            <ul>
+                <li>Odoo, un progiciel sur lequel nous avons une expertise sur les métiers de l’alimentation. Nous réalisons aussi de temps à autres des prestations extérieures sur le logiciel Odoo Communautaire</li>
+                <li>Nextcloud pour la gestion documentaire et le travail collaboratif.</li>
+            </ul>
+        </p>
+]]>
+        </field>
+    </record>
+
+    <record id="oca_france_base.demo_partner_auneor" model="res.partner">
+        <field name="is_published" eval="True" />
+        <field
+            name="website_short_description"
+        >Integrateur Odoo. Expert depuis plus de 13 ans, nous intervenons partout en France.</field>
+    </record>
+</odoo>

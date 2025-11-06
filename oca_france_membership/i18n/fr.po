@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* oca_france_membership
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-04 01:29+0000\n"
+"PO-Revision-Date: 2025-11-04 01:29+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: oca_france_membership
+#. odoo-python
+#: code:addons/oca_france_membership/models/res_partner.py:0
+msgid ""
+"\n"
+"(For %(worker_qty)d Workers)."
+msgstr ""
+
+#. module: oca_france_membership
+#: model:ir.model,name:oca_france_membership.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: oca_france_membership
+#: model:ir.model.fields,field_description:oca_france_membership.field_product_product__membership_fee_by_odoo_worker
+#: model:ir.model.fields,field_description:oca_france_membership.field_product_template__membership_fee_by_odoo_worker
+msgid ""
+"If Checked, the membership fee will be multiplicated by the quantity of Odoo"
+" workers in the company to compute the total amount to invoice."
+msgstr "Si la case est cochée, le montant de l'adhésion sera multiplié par le nombre"
+" de travailleurs Odoo dans la société, pour calculer le montant total de la facture."
+
+#. module: oca_france_membership
+#: model:product.template,name:oca_france_membership.demo_membership_product
+msgid "OCA France Membership"
+msgstr "Adhésion à l'OCA France"
+
+#. module: oca_france_membership
+#: model_terms:ir.ui.view,arch_db:oca_france_membership.view_product_template_form
+msgid "Per Odoo Worker"
+msgstr "Par travailleur Odoo"
+
+#. module: oca_france_membership
+#: model:ir.model,name:oca_france_membership.model_product_template
+msgid "Product"
+msgstr "Produit"
