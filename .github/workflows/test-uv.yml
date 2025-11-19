@@ -1,0 +1,47 @@
+name: tests
+
+on:
+  pull_request:
+    branches:
+      - "18.0*"
+  push:
+    branches:
+      - "18.0"
+env:
+  POSTGRES_DB: "oca-fr"
+  ODOO_RC: ./.github/workflows/odoo.conf
+
+
+jobs:
+  test-uv:
+    # testing uv setup as used on server / dev computer
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: runner
+          POSTGRES_PASSWORD: oca
+        ports:
+          - 5432:5432
+        # Set health checks to wait until postgres has started
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.9.8"
+          enable-cache: true
+      - name: Install the project
+        run: uv sync --locked --all-extras --dev
+      - name: Install addons and dependencies
+        run: uv run click-odoo-initdb --unless-initialized -m oca_france_all -n ${{ env.POSTGRES_DB }} --no-cache --demo
+      - name: Test (a useless) update
+        run: uv run click-odoo-update -d ${{ env.POSTGRES_DB }} --if-exists --i18n-overwrite
+      - name: Run tests
+        run: uv run pytest --odoo-config ${{ env.ODOO_RC }} --odoo-database ${{ env.POSTGRES_DB }} oca_france_*

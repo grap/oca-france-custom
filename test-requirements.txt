@@ -1,0 +1,3 @@
+odoo-addon-res-company-mastodon-link @ git+https://github.com/OCA/social@refs/pull/1754/head#subdirectory=res_company_mastodon_link
+odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
+odoo-addon-website-partner-form @ git+https://github.com/OCA/website@refs/pull/1142/head#subdirectory=website_partner_form
