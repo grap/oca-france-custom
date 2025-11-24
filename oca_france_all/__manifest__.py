@@ -14,15 +14,21 @@
         "oca_france_membership",
         "oca_france_website_membership",
         "oca_france_website_partner",
-        # OCA
-        "base_technical_features",
-        "disable_odoo_online",
+        # OCA/mail
         "mail_debrand",
-        "module_change_auto_install",
+        # OCA/partner-contact
         "partner_disable_gravatar",
+        # OCA/server-brand
+        "disable_odoo_online",
         "portal_odoo_debranding",
         "remove_odoo_enterprise",
+        # OCA/server-tools
+        "module_change_auto_install",
+        # OCA/server-ux
+        "base_technical_features",
+        # OCA/social
         "res_company_mastodon_link",
+        # OCA/web
         "web_dialog_size",
         "web_editor_disable_chatgpt",
         "web_no_bubble",
@@ -31,6 +37,7 @@
         "web_responsive",
         "web_save_discard_button",
         "web_theme_classic",
+        # OCA/website
         "website_company_mastodon_link",
         "website_partner_form",
         "website_odoo_debranding",
