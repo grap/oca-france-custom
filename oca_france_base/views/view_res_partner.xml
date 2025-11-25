@@ -23,7 +23,7 @@
         <field name="priority">10</field>
         <field name="arch" type="xml">
             <field name="vat" position="after">
-                <field name="odoo_worker_qty" />
+                <field name="odoo_worker_qty" invisible="not is_company" />
             </field>
         </field>
     </record>
@@ -33,7 +33,11 @@
         <field name="inherit_id" ref="base.view_partner_tree" />
         <field name="arch" type="xml">
             <field name="complete_name" position="after">
-                <field name="odoo_worker_qty" optional="show" />
+                <field
+                    name="odoo_worker_qty"
+                    optional="show"
+                    invisible="not is_company"
+                />
             </field>
         </field>
     </record>
@@ -44,7 +48,7 @@
         <field name="arch" type="xml">
             <xpath expr="//footer/div" position="inside">
                 <a
-                    t-if="record.odoo_worker_qty.raw_value"
+                    t-if="record.is_company.raw_value"
                     class="btn btn-sm btn-link smaller"
                     role="button"
                 >
