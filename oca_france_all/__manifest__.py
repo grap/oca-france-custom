@@ -47,7 +47,7 @@
         "membership",
         "website",
     ],
-    "maintainers": ["petrus-v"],
+    "maintainers": ["petrus-v", "legalsylvain"],
     "data": [],
     "demo": [],
 }
