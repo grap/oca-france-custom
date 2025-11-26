@@ -760,21 +760,28 @@ dependencies = [
     { name = "num2words" },
     { name = "odoo" },
     { name = "odoo-addon-base-technical-features" },
+    { name = "odoo-addon-base-user-role" },
     { name = "odoo-addon-disable-odoo-online" },
     { name = "odoo-addon-mail-debrand" },
     { name = "odoo-addon-module-change-auto-install" },
     { name = "odoo-addon-partner-disable-gravatar" },
+    { name = "odoo-addon-partner-firstname" },
     { name = "odoo-addon-portal-odoo-debranding" },
     { name = "odoo-addon-remove-odoo-enterprise" },
     { name = "odoo-addon-res-company-mastodon-link" },
+    { name = "odoo-addon-user-log-view" },
     { name = "odoo-addon-web-dialog-size" },
     { name = "odoo-addon-web-editor-disable-chatgpt" },
+    { name = "odoo-addon-web-favicon" },
+    { name = "odoo-addon-web-leaflet-lib" },
     { name = "odoo-addon-web-no-bubble" },
     { name = "odoo-addon-web-refresher" },
     { name = "odoo-addon-web-remember-tree-column-width" },
     { name = "odoo-addon-web-responsive" },
     { name = "odoo-addon-web-save-discard-button" },
     { name = "odoo-addon-web-theme-classic" },
+    { name = "odoo-addon-web-view-leaflet-map" },
+    { name = "odoo-addon-web-view-leaflet-map-partner" },
     { name = "odoo-addon-website-company-mastodon-link" },
     { name = "odoo-addon-website-odoo-debranding" },
     { name = "odoo-addon-website-partner-form" },
@@ -808,21 +815,28 @@ requires-dist = [
     { name = "num2words" },
     { name = "odoo", git = "https://github.com/OCA/OCB?branch=18.0" },
     { name = "odoo-addon-base-technical-features", specifier = "==18.0.*" },
+    { name = "odoo-addon-base-user-role", specifier = "==18.0.*" },
     { name = "odoo-addon-disable-odoo-online", specifier = "==18.0.*" },
     { name = "odoo-addon-mail-debrand", specifier = "==18.0.*" },
     { name = "odoo-addon-module-change-auto-install", specifier = "==18.0.*" },
     { name = "odoo-addon-partner-disable-gravatar", specifier = "==18.0.*" },
+    { name = "odoo-addon-partner-firstname", specifier = "==18.0.*" },
     { name = "odoo-addon-portal-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-remove-odoo-enterprise", specifier = "==18.0.*" },
     { name = "odoo-addon-res-company-mastodon-link", git = "https://github.com/OCA/social?subdirectory=res_company_mastodon_link&rev=refs%2Fpull%2F1754%2Fhead" },
+    { name = "odoo-addon-user-log-view", specifier = "==18.0.*" },
     { name = "odoo-addon-web-dialog-size", specifier = "==18.0.*" },
     { name = "odoo-addon-web-editor-disable-chatgpt", specifier = "==18.0.*" },
+    { name = "odoo-addon-web-favicon", specifier = "==18.0.*" },
+    { name = "odoo-addon-web-leaflet-lib", specifier = "==18.0.*" },
     { name = "odoo-addon-web-no-bubble", specifier = "==18.0.*" },
     { name = "odoo-addon-web-refresher", specifier = "==18.0.*" },
     { name = "odoo-addon-web-remember-tree-column-width", specifier = "==18.0.*" },
     { name = "odoo-addon-web-responsive", specifier = "==18.0.*" },
     { name = "odoo-addon-web-save-discard-button", specifier = "==18.0.*" },
     { name = "odoo-addon-web-theme-classic", specifier = "==18.0.*" },
+    { name = "odoo-addon-web-view-leaflet-map", specifier = "==18.0.*" },
+    { name = "odoo-addon-web-view-leaflet-map-partner", specifier = "==18.0.*" },
     { name = "odoo-addon-website-company-mastodon-link", git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead" },
     { name = "odoo-addon-website-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-website-partner-form", git = "https://github.com/OCA/website?subdirectory=website_partner_form&rev=refs%2Fpull%2F1142%2Fhead" },
@@ -919,6 +933,17 @@ wheels = [
 ]
 
 [[package]]
+name = "odoo-addon-base-user-role"
+version = "18.0.1.0.5.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ac/9b/fb8c7ef7a2cb5f87da3385e77a56b66dbaa0da45305709482172ed5b1ef1/odoo_addon_base_user_role-18.0.1.0.5.2-py3-none-any.whl", hash = "sha256:b46d1d4b7feb198acc2f540ab643a7068b6b969c907819e33cb18069e28f558b", size = 289757, upload-time = "2025-11-22T04:10:17.346Z" },
+]
+
+[[package]]
 name = "odoo-addon-disable-odoo-online"
 version = "18.0.1.0.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -963,6 +988,17 @@ wheels = [
 ]
 
 [[package]]
+name = "odoo-addon-partner-firstname"
+version = "18.0.3.0.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1d/f8/8bc4085b8bfd17f9200bb3c8a7bdca7577344a876237af8a027537a0a415/odoo_addon_partner_firstname-18.0.3.0.0-py3-none-any.whl", hash = "sha256:1a602b43e7e6cb22f19e38493975415655410f1ac43692826867aa2c4552be9f", size = 128558, upload-time = "2025-11-26T09:00:59.089Z" },
+]
+
+[[package]]
 name = "odoo-addon-portal-odoo-debranding"
 version = "18.0.1.0.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -993,6 +1029,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "odoo-addon-user-log-view"
+version = "18.0.1.0.0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bf/c9/c3f46ec2a263e9bbc18f261a82e809bb1695e6e3ac1f7aa0126db99182b3/odoo_addon_user_log_view-18.0.1.0.0.2-py3-none-any.whl", hash = "sha256:b886aed4db6bd5f9f7a923566ddb775082f592f016ee6a42900abd37dae9447d", size = 22519, upload-time = "2025-10-13T19:20:49.794Z" },
+]
+
+[[package]]
 name = "odoo-addon-web-dialog-size"
 version = "18.0.1.0.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1012,6 +1059,28 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f6/20/149b061ab66ae816f087e494937013afdf5899a422f77b469f4e695e07df/odoo_addon_web_editor_disable_chatgpt-18.0.1.0.0.3-py3-none-any.whl", hash = "sha256:0595c8de9460fa2db702a4d3269912a0419b81bf69dd24d5bc5719faf2bd6449", size = 22972, upload-time = "2025-10-17T04:12:49.582Z" },
+]
+
+[[package]]
+name = "odoo-addon-web-favicon"
+version = "18.0.1.0.0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/32/30/2d47a9f34a99f0e1bc93bf39d4aba928a853b6f1eeacb742e749740b8281/odoo_addon_web_favicon-18.0.1.0.0.4-py3-none-any.whl", hash = "sha256:ce1b66f04f15b7395784ee3097343a2eb7dc22aba1be58e00fa829c15f78a4b1", size = 22758, upload-time = "2025-01-15T03:47:29.808Z" },
+]
+
+[[package]]
+name = "odoo-addon-web-leaflet-lib"
+version = "18.0.1.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c6/3f/4f1755e8e77955f070fc4eac6d643139a2f7122c21f4e2716193e08ec29f/odoo_addon_web_leaflet_lib-18.0.1.1.0-py3-none-any.whl", hash = "sha256:831e1103a9b588c77bfd373a31977931e4e4a767a38a035ed7487c8f604c0dba", size = 196444, upload-time = "2025-11-20T19:37:13.818Z" },
 ]
 
 [[package]]
@@ -1078,6 +1147,30 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/65/28/9b1363e6f2332a9b3536079049551a878da4d9abaab4c39bccc7a45e2f24/odoo_addon_web_theme_classic-18.0.1.0.0.2-py3-none-any.whl", hash = "sha256:11b94d8bcf4106cc45d851b07b77e497549a07ef6b852c9f18568cb2e2674d78", size = 216604, upload-time = "2025-04-03T19:03:56.511Z" },
+]
+
+[[package]]
+name = "odoo-addon-web-view-leaflet-map"
+version = "18.0.1.1.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+    { name = "odoo-addon-web-leaflet-lib" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/59/51/5536be58a2b3f0271e315e53b2961050a2bcde68d225c2c0b35dce0f7daf/odoo_addon_web_view_leaflet_map-18.0.1.1.1-py3-none-any.whl", hash = "sha256:a31d257d038d0086b98331f4dfe20484880c0c3d3a990a870c26611cd53a90c6", size = 614379, upload-time = "2025-11-21T14:49:21.763Z" },
+]
+
+[[package]]
+name = "odoo-addon-web-view-leaflet-map-partner"
+version = "18.0.1.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+    { name = "odoo-addon-web-view-leaflet-map" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f7/db/8e24219b9443d0ad8c25ce9edde650025e31264aa6edd841bdf13204f425/odoo_addon_web_view_leaflet_map_partner-18.0.1.0.1-py3-none-any.whl", hash = "sha256:f5f52dac59657cea06353f43a8c16d3f689c4b6fa255d38962cd5438bc6c59aa", size = 418473, upload-time = "2025-11-21T14:49:24.578Z" },
 ]
 
 [[package]]
