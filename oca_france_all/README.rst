@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ==============================
 OCA France Customization - All
 ==============================
@@ -17,7 +13,7 @@ OCA France Customization - All
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-oca--france%2Foca--france--custom-lightgray.png?logo=github
@@ -64,10 +60,13 @@ Maintainers
 .. |maintainer-petrus-v| image:: https://github.com/petrus-v.png?size=40px
     :target: https://github.com/petrus-v
     :alt: petrus-v
+.. |maintainer-legalsylvain| image:: https://github.com/legalsylvain.png?size=40px
+    :target: https://github.com/legalsylvain
+    :alt: legalsylvain
 
-Current maintainer:
+Current maintainers:
 
-|maintainer-petrus-v| 
+|maintainer-petrus-v| |maintainer-legalsylvain| 
 
 This module is part of the `oca-france/oca-france-custom <https://github.com/oca-france/oca-france-custom/tree/18.0/oca_france_all>`_ project on GitHub.
 
