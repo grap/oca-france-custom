@@ -866,7 +866,7 @@ dev = [
 [[package]]
 name = "odoo"
 version = "18.0"
-source = { git = "https://github.com/OCA/OCB?branch=18.0#cdacabfd1a727a47c05f0d9c2c401e3179b20661" }
+source = { git = "https://github.com/OCA/OCB?branch=18.0#9cbc3b5a69d55dda2d35308f2d376a96f14752d7" }
 dependencies = [
     { name = "asn1crypto" },
     { name = "babel" },
