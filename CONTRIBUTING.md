@@ -34,7 +34,7 @@ Here we focus on what to do without explaining how to do it.
 There is nothing special to do more that make a commit publicly available.
 
 While technically speaking there is nothing more than accessing to a public commit to
-deploy a new version it's a common practice to merge your work on branch 14.0 before
+deploy a new version it's a common practice to merge your work on branch 18.0 before
 deploying a new version in production.
 
 > **Note**: in this repository we allow unreleased dependencies.
@@ -47,6 +47,25 @@ Ask administrator to deploy the given commit.
 
 Here we focus on how to do it, it's a suggest way to works but feel free to use your own
 way.
+
+We use `make` to ease some tasks described in the [Makefile](Makefile).
+
+Global Makefile usage is as follow:
+
+```bash
+make <command> [PARAMETER=value] [...]
+```
+
+Parameters are optional and can be overriden (some are used by multiple commands):
+
+- `DB_NAME`: database name (default: `oca-france-test`)
+- `ODOO_CONF`: odoo configuration file (default: ``), example: `-c /path/to/odoo.conf`
+- `DEMO_OPTION`: odoo demo option (default: `--demo`)
+- `PYTEST_OPTIONS`: pytest options (default: `--ignore=./src/ .`)
+- `TRANSLATE_MODULES`: modules to translate (default: all modules from this repository)
+- `MODULES`: modules to install (default: `oca_france_all`)
+
+Type `make help` to get a list of available commands.
 
 ### Setup developer environment
 
@@ -62,6 +81,8 @@ Prepare a python virtual environment with the correct python version (which uv w
 download for you if necessary) and install the required dependencies:
 
 ```bash
+make setup-dev
+# or
 uv sync
 ```
 
@@ -105,8 +126,18 @@ There is two different goals:
 
 ### Initialized or update Odoo database
 
+You can use the `make update-db` command to initialized or update the database.
+optionnaly you can set the `DB_NAME` environment variable to specify the database name
+and a `ODOO_CONF` to specify how to connect to the database.
+
 ```bash
-export DB_NAME=oca-france
+make update-db [DB_NAME=oca-france-test] [ODOO_CONF=-c /path/to/odoo.conf] [DEMO_OPTION=]
+```
+
+or do it manually:
+
+```bash
+export DB_NAME=oca-france-test
 uv run click-odoo-initdb --unless-initialized \
    -n "$DB_NAME" -m oca_france_all --no-cache [--demo]
 uv run click-odoo-update --if-exists -d "$DB_NAME" --i18n-overwrite
@@ -120,6 +151,8 @@ uv run click-odoo-update --if-exists -d "$DB_NAME" --i18n-overwrite
 - run tests using pytest launcher
 
 ```bash
+make test
+# or
 uv run pytest --odoo-database oca-france --cov ./oca_france_membership/ ./oca_france_membership/
 ```
 
