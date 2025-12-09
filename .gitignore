@@ -52,6 +52,7 @@ coverage.xml
 
 # Translations
 *.mo
+*.pot
 
 # Pycharm
 .idea
@@ -83,6 +84,7 @@ docs/_build/
 # Backup files
 *~
 *.swp
+.pgdumps/
 
 # OCA rules
 !static/lib/

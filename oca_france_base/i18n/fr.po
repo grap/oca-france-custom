@@ -10,10 +10,23 @@ msgstr ""
 "PO-Revision-Date: 2025-11-03 22:06+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+
+#. module: oca_france_base
+#: model_terms:res.partner,website_description:oca_france_base.demo_partner_grap
+msgid ""
+".\n"
+"            <br><br>\n"
+"            Un des piliers de la coopérative est l’internalisation du "
+"service informatique pour rendre les grapien·ne·s autonomes avec des outils "
+"informatiques Libres qui répondent à leurs besoins métier. Le pôle "
+"informatique est composé de 4 personnes qui développons, administrons, "
+"documentons, formons les activités à :"
+msgstr ""
 
 #. module: oca_france_base
 #: model_terms:ir.ui.view,arch_db:oca_france_base.view_res_partner_kanban
@@ -23,6 +36,38 @@ msgstr "<i class=\"fa fa-users me-1\" title=\"Travailleurs Odoo\"/>"
 #. module: oca_france_base
 #: model:ir.model,name:oca_france_base.model_res_partner
 msgid "Contact"
+msgstr "Contact"
+
+#. module: oca_france_base
+#: model:res.partner,website_short_description:oca_france_base.demo_partner_grap
+msgid ""
+"Coopérative d'activité et d'emploi en Rhône Alpes dédiée aux activités de "
+"l'alimentation."
+msgstr ""
+
+#. module: oca_france_base
+#: model_terms:res.partner,website_description:oca_france_base.demo_partner_grap
+msgid ""
+"Grap est une coopérative d’indépendant·es dans l’alimentation bio-locale "
+"dans la région Rhône-Alpes. Elle regroupe 65 activités (environ 250 "
+"personnes) allant de l’épicerie à la restauration, en passant par des "
+"torréfacteur·ice·s, des brasseur·euse·s de bières, des boulanger·ère·s etc. "
+"Une équipe support aide notamment ses activités en s’occupant de tâches "
+"administratives, en réalisant leurs contrats de travail, leurs fiches de "
+"paie, en les accompagnant d’un point de vue métier, juridique et financier "
+"etc."
+msgstr ""
+
+#. module: oca_france_base
+#: model:res.partner,website_short_description:oca_france_base.demo_partner_auneor
+msgid ""
+"Integrateur Odoo. Expert depuis plus de 13 ans, nous intervenons partout en "
+"France."
+msgstr ""
+
+#. module: oca_france_base
+#: model_terms:res.partner,website_description:oca_france_base.demo_partner_grap
+msgid "Nextcloud pour la gestion documentaire et le travail collaboratif."
 msgstr ""
 
 #. module: oca_france_base
@@ -32,16 +77,29 @@ msgid ""
 "Number of people working on Odoo. (Developer, trainer, functional, "
 "management staff). This information will be used to calculate the amount of "
 "the membership fee for the association."
-msgstr "Nombre de personnes travaillant sur Odoo. "
-" (Développeurs, formateurs, fonctionels, personel d'encadrement, etc)."
-" Cette information est utilisée pour calculer le montant de la cotisation"
-" à l'association."
+msgstr ""
+"Nombre de personnes travaillant sur Odoo.  (Développeurs, formateurs, "
+"fonctionels, personel d'encadrement, etc). Cette information est utilisée "
+"pour calculer le montant de la cotisation à l'association."
 
 #. module: oca_france_base
 #: model:ir.model.fields,field_description:oca_france_base.field_res_partner__odoo_worker_qty
 #: model:ir.model.fields,field_description:oca_france_base.field_res_users__odoo_worker_qty
 msgid "Odoo Workers"
 msgstr "Travailleurs Odoo"
+
+#. module: oca_france_base
+#: model_terms:res.partner,website_description:oca_france_base.demo_partner_grap
+msgid ""
+"Odoo, un progiciel sur lequel nous avons une expertise sur les métiers de "
+"l’alimentation. Nous réalisons aussi de temps à autres des prestations "
+"extérieures sur le logiciel Odoo Communautaire"
+msgstr ""
+
+#. module: oca_france_base
+#: model_terms:res.partner,website_description:oca_france_base.demo_partner_grap
+msgid "Plus d’infos"
+msgstr ""
 
 #. module: oca_france_base
 #: model_terms:ir.ui.view,arch_db:oca_france_base.view_res_partner_search
