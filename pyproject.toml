@@ -71,9 +71,7 @@ odoo = { git = "https://github.com/OCA/OCB", branch = "18.0" }
 # unreleased dependency, add it to test-requirements.txt to let the
 # test pipeline to use it as well
 odoo-addons-design-themes = { git = "https://github.com/petrus-v/design-themes", branch = "18.0-add-pyproject" }
-odoo-addon-res_company_mastodon_link = { git = "https://github.com/OCA/social", rev = "refs/pull/1754/head", subdirectory = "res_company_mastodon_link" }
 odoo-addon-website_company_mastodon_link = { git = "https://github.com/OCA/website", rev = "refs/pull/1141/head", subdirectory = "website_company_mastodon_link" }
-odoo-addon-website_partner_form = { git = "https://github.com/OCA/website", rev = "refs/pull/1142/head", subdirectory = "website_partner_form" }
 
 # Example to develop module from an other repository
 # installing in editable mode

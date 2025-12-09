@@ -823,7 +823,7 @@ requires-dist = [
     { name = "odoo-addon-partner-firstname", specifier = "==18.0.*" },
     { name = "odoo-addon-portal-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-remove-odoo-enterprise", specifier = "==18.0.*" },
-    { name = "odoo-addon-res-company-mastodon-link", git = "https://github.com/OCA/social?subdirectory=res_company_mastodon_link&rev=refs%2Fpull%2F1754%2Fhead" },
+    { name = "odoo-addon-res-company-mastodon-link", specifier = "==18.0.*" },
     { name = "odoo-addon-user-log-view", specifier = "==18.0.*" },
     { name = "odoo-addon-web-dialog-size", specifier = "==18.0.*" },
     { name = "odoo-addon-web-editor-disable-chatgpt", specifier = "==18.0.*" },
@@ -839,7 +839,7 @@ requires-dist = [
     { name = "odoo-addon-web-view-leaflet-map-partner", specifier = "==18.0.*" },
     { name = "odoo-addon-website-company-mastodon-link", git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead" },
     { name = "odoo-addon-website-odoo-debranding", specifier = "==18.0.*" },
-    { name = "odoo-addon-website-partner-form", git = "https://github.com/OCA/website?subdirectory=website_partner_form&rev=refs%2Fpull%2F1142%2Fhead" },
+    { name = "odoo-addon-website-partner-form", specifier = "==18.0.*" },
     { name = "odoo-addon-website-search-header", specifier = "==18.0.*" },
     { name = "packaging" },
     { name = "pdfminer" },
@@ -1022,10 +1022,13 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-res-company-mastodon-link"
-version = "18.0.1.0.0.2"
-source = { git = "https://github.com/OCA/social?subdirectory=res_company_mastodon_link&rev=refs%2Fpull%2F1754%2Fhead#b0e27c3393776bb6aa6c8e5e226d86ede8808cea" }
+version = "18.0.1.0.0.5"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/42/c2/c389655a6daf63fba46f03107e7059f42097a863f4e19c78709e578e3338/odoo_addon_res_company_mastodon_link-18.0.1.0.0.5-py3-none-any.whl", hash = "sha256:e351ce3ee07751b8af25681b8609bd3806c2dc5809d11208a90aeb8fee72d5c1", size = 45362, upload-time = "2025-11-18T04:19:07.657Z" },
 ]
 
 [[package]]
@@ -1196,10 +1199,13 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-website-partner-form"
-version = "18.0.1.0.0"
-source = { git = "https://github.com/OCA/website?subdirectory=website_partner_form&rev=refs%2Fpull%2F1142%2Fhead#258b5fbe1235f509712ac029b38e914061426fdd" }
+version = "18.0.1.0.0.3"
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0c/be/57a1f838895406859e13f39445be14b50b2a3e7217d88c9ecf46df62bf0e/odoo_addon_website_partner_form-18.0.1.0.0.3-py3-none-any.whl", hash = "sha256:9776eda5eb490d5290d9b8420dda6f98dc795128dffb5b7c1499df5b2b13762d", size = 109581, upload-time = "2025-12-05T04:27:50.2Z" },
 ]
 
 [[package]]
