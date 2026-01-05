@@ -38,6 +38,10 @@ dependencies = [
   # indirect dependencies with Open PRs needs to be declared explicitly
   # to be installed from git branch
   "odoo-addon-res-company-mastodon-link==18.0.*",
+  "odoo-addon-account_statement_import_api==18.0.*",
+  "odoo-addon-account_statement_import_api_qonto==18.0.*",
+  "odoo-addon-account_statement_import_in_invoice_api==18.0.*",
+  "odoo-addon-account_statement_import_in_invoice==18.0.*",
   # Addons that are not declared in manifests because we don't want
   # them installed automatically.
 ]
@@ -71,12 +75,15 @@ odoo = { git = "https://github.com/OCA/OCB", branch = "18.0" }
 # unreleased dependency, add it to test-requirements.txt to let the
 # test pipeline to use it as well
 odoo-addons-design-themes = { git = "https://github.com/petrus-v/design-themes", branch = "18.0-add-pyproject" }
+odoo-addon-account_statement_import_api = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_api" }
+odoo-addon-account_statement_import_api_qonto = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_api_qonto" }
+odoo-addon-account_statement_import_in_invoice_api = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_in_invoice_api" }
+odoo-addon-account_statement_import_in_invoice = { git = "https://github.com/akretion/bank-statement-import-api", branch = "18.0", subdirectory = "account_statement_import_in_invoice" }
 odoo-addon-website_company_mastodon_link = { git = "https://github.com/OCA/website", rev = "refs/pull/1141/head", subdirectory = "website_company_mastodon_link" }
 
 # Example to develop module from an other repository
 # installing in editable mode
-# odoo14-addon-membership-delegated-partner-line = { path = "src/vertical-association/setup/membership_delegated_partner_line", editable = true }
-
+# odoo-addon-membership-delegated-partner-line = { path = "src/vertical-association/setup/membership_delegated_partner_line", editable = true }
 
 
 [tool.pytest]

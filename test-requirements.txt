@@ -1,5 +1,6 @@
 coverage[toml]
 odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
-odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
-
-odoo-addon-account-move-line-reconcile-manual @ git+https://github.com/OCA/account-reconcile@refs/pull/814/head#subdirectory=account_move_line_reconcile_manual
+odoo-addon-account-statement-import-api = git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api
+odoo-addon-account-statement-import-api-qonto = git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api_qonto
+odoo-addon-account-statement-import-in-invoice-api = git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_in_invoice_api
+odoo-addon-account-statement-import-in-invoice = git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_in_invoice
