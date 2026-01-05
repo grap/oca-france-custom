@@ -14,6 +14,10 @@
         "oca_france_membership",
         "oca_france_website_membership",
         "oca_france_website_partner",
+        # OCA/account-financial-tools
+        "account_lock_date_update",
+        "account_move_name_sequence",
+        "account_usability",
         # OCA/geospatial
         "web_leaflet_lib",
         "web_view_leaflet_map",
@@ -38,6 +42,7 @@
         "module_change_auto_install",
         # OCA/server-ux
         "base_technical_features",
+        "date_range_account",
         # OCA/social
         "res_company_mastodon_link",
         # OCA/web

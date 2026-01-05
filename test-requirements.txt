@@ -1,2 +1,5 @@
 coverage[toml]
 odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
+odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
+
+odoo-addon-account-move-line-reconcile-manual @ git+https://github.com/OCA/account-reconcile@refs/pull/814/head#subdirectory=account_move_line_reconcile_manual
