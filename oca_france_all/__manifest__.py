@@ -66,6 +66,7 @@
         "server_environment",
         "server_environment_ir_config_parameter",
         # OCA/server-tools
+        "module_analysis",
         "module_change_auto_install",
         # OCA/server-ux
         "base_technical_features",
