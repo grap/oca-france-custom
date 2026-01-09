@@ -769,9 +769,12 @@ dependencies = [
     { name = "odoo-addon-portal-odoo-debranding" },
     { name = "odoo-addon-remove-odoo-enterprise" },
     { name = "odoo-addon-res-company-mastodon-link" },
+    { name = "odoo-addon-server-environment" },
+    { name = "odoo-addon-server-environment-ir-config-parameter" },
     { name = "odoo-addon-user-log-view" },
     { name = "odoo-addon-web-dialog-size" },
     { name = "odoo-addon-web-editor-disable-chatgpt" },
+    { name = "odoo-addon-web-environment-ribbon" },
     { name = "odoo-addon-web-favicon" },
     { name = "odoo-addon-web-leaflet-lib" },
     { name = "odoo-addon-web-no-bubble" },
@@ -824,9 +827,12 @@ requires-dist = [
     { name = "odoo-addon-portal-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-remove-odoo-enterprise", specifier = "==18.0.*" },
     { name = "odoo-addon-res-company-mastodon-link", specifier = "==18.0.*" },
+    { name = "odoo-addon-server-environment", specifier = "==18.0.*" },
+    { name = "odoo-addon-server-environment-ir-config-parameter", specifier = "==18.0.*" },
     { name = "odoo-addon-user-log-view", specifier = "==18.0.*" },
     { name = "odoo-addon-web-dialog-size", specifier = "==18.0.*" },
     { name = "odoo-addon-web-editor-disable-chatgpt", specifier = "==18.0.*" },
+    { name = "odoo-addon-web-environment-ribbon", specifier = "==18.0.*" },
     { name = "odoo-addon-web-favicon", specifier = "==18.0.*" },
     { name = "odoo-addon-web-leaflet-lib", specifier = "==18.0.*" },
     { name = "odoo-addon-web-no-bubble", specifier = "==18.0.*" },
@@ -1032,6 +1038,29 @@ wheels = [
 ]
 
 [[package]]
+name = "odoo-addon-server-environment"
+version = "18.0.1.0.4.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4f/20/783e4cee5221f835a2a7768a0d506173889233120572c7693ac39ee871f8/odoo_addon_server_environment-18.0.1.0.4.2-py3-none-any.whl", hash = "sha256:6e7c0c5a9237d6377c755f6564220a33f2bac6e82a0878f898c1fa6be4e02dbd", size = 198910, upload-time = "2025-11-14T04:11:20.551Z" },
+]
+
+[[package]]
+name = "odoo-addon-server-environment-ir-config-parameter"
+version = "18.0.1.0.0.6"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+    { name = "odoo-addon-server-environment" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/58/f00eb5db48d56946db064d134fd111bafbd387ee9ba6a4c9c2e533e71bdd/odoo_addon_server_environment_ir_config_parameter-18.0.1.0.0.6-py3-none-any.whl", hash = "sha256:ea72984635f27b2cc4e84aa66beefb2a5a3df7c5e730ce3a00904b43317d4558", size = 34527, upload-time = "2025-11-14T04:11:15.646Z" },
+]
+
+[[package]]
 name = "odoo-addon-user-log-view"
 version = "18.0.1.0.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1062,6 +1091,17 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f6/20/149b061ab66ae816f087e494937013afdf5899a422f77b469f4e695e07df/odoo_addon_web_editor_disable_chatgpt-18.0.1.0.0.3-py3-none-any.whl", hash = "sha256:0595c8de9460fa2db702a4d3269912a0419b81bf69dd24d5bc5719faf2bd6449", size = 22972, upload-time = "2025-10-17T04:12:49.582Z" },
+]
+
+[[package]]
+name = "odoo-addon-web-environment-ribbon"
+version = "18.0.1.0.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "odoo" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/dc/ef/c7d85884a7e887348e8c2a822d5a66665204a25c44bc1c56e367791cc36d/odoo_addon_web_environment_ribbon-18.0.1.0.3-py3-none-any.whl", hash = "sha256:ca5650bc8fa5b0563f143778bc3df9a6b8e026eaa1057f17b89c40a04db79a6c", size = 133257, upload-time = "2025-04-02T07:12:02.007Z" },
 ]
 
 [[package]]

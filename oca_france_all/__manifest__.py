@@ -31,6 +31,9 @@
         "disable_odoo_online",
         "portal_odoo_debranding",
         "remove_odoo_enterprise",
+        # OCA/server-env
+        "server_environment",
+        "server_environment_ir_config_parameter",
         # OCA/server-tools
         "module_change_auto_install",
         # OCA/server-ux
@@ -47,6 +50,7 @@
         "web_responsive",
         "web_save_discard_button",
         "web_theme_classic",
+        "web_environment_ribbon",
         # OCA/website
         "website_company_mastodon_link",
         "website_odoo_debranding",
