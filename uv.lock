@@ -1125,8 +1125,8 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-api"
-version = "18.0.1.0.0.5"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-base" },
@@ -1134,8 +1134,8 @@ dependencies = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-api-qonto"
-version = "18.0.1.0.0.3"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-in-invoice-api" },
@@ -1180,8 +1180,8 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice"
-version = "18.0.1.0.0.5"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-reconcile-oca" },
@@ -1190,8 +1190,8 @@ dependencies = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice-api"
-version = "18.0.1.0.0.1"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-api" },
