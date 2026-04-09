@@ -845,6 +845,7 @@ dependencies = [
     { name = "odoo-addon-website-odoo-debranding" },
     { name = "odoo-addon-website-partner-form" },
     { name = "odoo-addon-website-search-header" },
+    { name = "odoo-addon-website-social-media-link" },
     { name = "packaging" },
     { name = "pdfminer" },
     { name = "phonenumbers" },
@@ -922,6 +923,7 @@ requires-dist = [
     { name = "odoo-addon-website-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-website-partner-form", specifier = "==18.0.*" },
     { name = "odoo-addon-website-search-header", specifier = "==18.0.*" },
+    { name = "odoo-addon-website-social-media-link", git = "https://github.com/OCA/website?subdirectory=website_social_media_link&rev=refs%2Fpull%2F1170%2Fhead" },
     { name = "packaging" },
     { name = "pdfminer" },
     { name = "phonenumbers" },
@@ -947,7 +949,7 @@ dev = [
 [[package]]
 name = "odoo"
 version = "18.0"
-source = { git = "https://github.com/OCA/OCB?branch=18.0#9cbc3b5a69d55dda2d35308f2d376a96f14752d7" }
+source = { git = "https://github.com/OCA/OCB?branch=18.0#5382986628076562b1d61508d6908730721c0a1e" }
 dependencies = [
     { name = "asn1crypto" },
     { name = "babel" },
@@ -1123,8 +1125,8 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-api"
-version = "18.0.1.0.0.5"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-base" },
@@ -1132,8 +1134,8 @@ dependencies = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-api-qonto"
-version = "18.0.1.0.0.3"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_api_qonto&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-in-invoice-api" },
@@ -1178,8 +1180,8 @@ wheels = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice"
-version = "18.0.1.0.0.5"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-reconcile-oca" },
@@ -1188,8 +1190,8 @@ dependencies = [
 
 [[package]]
 name = "odoo-addon-account-statement-import-in-invoice-api"
-version = "18.0.1.0.0.1"
-source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#aa1661f1583aed751f931787707f061d4f0f9dc4" }
+version = "18.0.1.0.0"
+source = { git = "https://github.com/akretion/bank-statement-import-api?subdirectory=account_statement_import_in_invoice_api&branch=18.0#56d4b1c6ab4bbe2b3ba3e53a557fb37f76b3ab14" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-account-statement-import-api" },
@@ -1629,11 +1631,12 @@ wheels = [
 [[package]]
 name = "odoo-addon-website-company-mastodon-link"
 version = "18.0.1.0.0"
-source = { git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead#02f19a620cf9f5095960dbcf61710264b5d9aa4e" }
+source = { git = "https://github.com/OCA/website?subdirectory=website_company_mastodon_link&rev=refs%2Fpull%2F1141%2Fhead#73d07600367601bc6938188a2636633b649f5eec" }
 dependencies = [
     { name = "odoo" },
     { name = "odoo-addon-base-fontawesome" },
     { name = "odoo-addon-res-company-mastodon-link" },
+    { name = "odoo-addon-website-social-media-link" },
 ]
 
 [[package]]
@@ -1667,6 +1670,14 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/51/bf/a98fbdc44e2ddc31e3306da162ac0b6d37f3ac6fad5d8eaaa0f9681a9426/odoo_addon_website_search_header-18.0.1.0.0.4-py3-none-any.whl", hash = "sha256:5f31caa9f914c5862811c8b73ad110c535190b474685fe1f6729d94ebcf8c00c", size = 22811, upload-time = "2025-09-16T04:07:59.762Z" },
+]
+
+[[package]]
+name = "odoo-addon-website-social-media-link"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/website?subdirectory=website_social_media_link&rev=refs%2Fpull%2F1170%2Fhead#b0371cf88799e91278f061375626a9df99a698d2" }
+dependencies = [
+    { name = "odoo" },
 ]
 
 [[package]]

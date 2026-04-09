@@ -1,6 +1,8 @@
 coverage[toml]
-odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
 odoo-addon-account-statement-import-api @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api
 odoo-addon-account-statement-import-api-qonto @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_api_qonto
 odoo-addon-account-statement-import-in-invoice-api @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_in_invoice_api
 odoo-addon-account-statement-import-in-invoice @ git+https://github.com/akretion/bank-statement-import-api.git@18.0#subdirectory=account_statement_import_in_invoice
+odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
+odoo-addon-website_social_media_link @ git+https://github.com/OCA/website@refs/pull/1170/head#subdirectory=website_social_media_link
+backports-datetime-fromisoformat; python_version < '3.11'
