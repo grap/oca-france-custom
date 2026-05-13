@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ====================================================
 OCA France Customization - Website Membership Module
 ====================================================
@@ -17,7 +13,7 @@ OCA France Customization - Website Membership Module
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-AGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-oca--france%2Foca--france--custom-lightgray.png?logo=github
@@ -32,6 +28,8 @@ France.
 - it Adds the partner field ``odoo_worker_qty`` on website members page.
 
 |members_template|
+
+- The members are ordered by workers quantity desc, on website page.
 
 .. |members_template| image:: https://raw.githubusercontent.com/oca-france/oca-france-custom/18.0/oca_france_website_membership/static/description/members_template.png
 
