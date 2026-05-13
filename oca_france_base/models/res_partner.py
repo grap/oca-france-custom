@@ -14,4 +14,5 @@ class ResPartner(models.Model):
         " (Developer, trainer, functional, management staff)."
         " This information will be used to calculate the amount"
         " of the membership fee for the association.",
+        default=0,
     )

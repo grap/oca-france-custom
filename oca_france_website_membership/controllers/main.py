@@ -9,11 +9,19 @@ from odoo.addons.website_membership.controllers.main import WebsiteMembership
 
 class WebsiteMembership(WebsiteMembership):
     @route()
-    def members(self, *args, **kwargs):
+    def members(
+        self, membership_id=None, country_name=None, country_id=0, page=1, **post
+    ):
         """Inject a context for being queried later on the search
         of the membership lines for ordering result.
         """
         request.env.context = frozendict(
             request.env.context, membership_line_order_by_workers=True
         )
-        return super().members(*args, kwargs)
+        return super().members(
+            membership_id=membership_id,
+            country_name=country_name,
+            country_id=country_id,
+            page=page,
+            **post,
+        )

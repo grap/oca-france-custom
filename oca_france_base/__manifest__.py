@@ -4,7 +4,7 @@
 {
     "name": "OCA France Customization - Base Module",
     "summary": "Base customization for the OCA France Instance",
-    "version": "18.0.1.1.0",
+    "version": "18.0.2.0.0",
     "license": "AGPL-3",
     "author": "GRAP, OCA France",
     "website": "https://www.oca-france.fr",
