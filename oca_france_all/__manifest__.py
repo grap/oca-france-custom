@@ -73,6 +73,8 @@
         "date_range_account",
         # OCA/social
         "res_company_mastodon_link",
+        # OCA/vertical-association
+        "website_membership_non_paid_member",
         # OCA/web
         "web_dialog_size",
         "web_editor_disable_chatgpt",
