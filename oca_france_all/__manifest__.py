@@ -73,6 +73,8 @@
         "date_range_account",
         # OCA/social
         "res_company_mastodon_link",
+        "res_partner_mastodon_link",
+        "res_partner_linkedin_link",
         # OCA/vertical-association
         "website_membership_non_paid_member",
         # OCA/web

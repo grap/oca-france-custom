@@ -825,6 +825,8 @@ dependencies = [
     { name = "odoo-addon-portal-odoo-debranding" },
     { name = "odoo-addon-remove-odoo-enterprise" },
     { name = "odoo-addon-res-company-mastodon-link" },
+    { name = "odoo-addon-res-partner-linkedin-link" },
+    { name = "odoo-addon-res-partner-mastodon-link" },
     { name = "odoo-addon-server-environment" },
     { name = "odoo-addon-server-environment-ir-config-parameter" },
     { name = "odoo-addon-user-log-view" },
@@ -904,6 +906,8 @@ requires-dist = [
     { name = "odoo-addon-portal-odoo-debranding", specifier = "==18.0.*" },
     { name = "odoo-addon-remove-odoo-enterprise", specifier = "==18.0.*" },
     { name = "odoo-addon-res-company-mastodon-link", specifier = "==18.0.*" },
+    { name = "odoo-addon-res-partner-linkedin-link", git = "https://github.com/OCA/social?subdirectory=res_partner_linkedin_link&rev=refs%2Fpull%2F1869%2Fhead" },
+    { name = "odoo-addon-res-partner-mastodon-link", git = "https://github.com/OCA/social?subdirectory=res_partner_mastodon_link&rev=refs%2Fpull%2F1870%2Fhead" },
     { name = "odoo-addon-server-environment", specifier = "==18.0.*" },
     { name = "odoo-addon-server-environment-ir-config-parameter", specifier = "==18.0.*" },
     { name = "odoo-addon-user-log-view", specifier = "==18.0.*" },
@@ -1439,6 +1443,23 @@ dependencies = [
 ]
 wheels = [
     { url = "https://files.pythonhosted.org/packages/42/c2/c389655a6daf63fba46f03107e7059f42097a863f4e19c78709e578e3338/odoo_addon_res_company_mastodon_link-18.0.1.0.0.5-py3-none-any.whl", hash = "sha256:e351ce3ee07751b8af25681b8609bd3806c2dc5809d11208a90aeb8fee72d5c1", size = 45362, upload-time = "2025-11-18T04:19:07.657Z" },
+]
+
+[[package]]
+name = "odoo-addon-res-partner-linkedin-link"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/social?subdirectory=res_partner_linkedin_link&rev=refs%2Fpull%2F1869%2Fhead#7f8e1870c0f37f2a7609bfa6994cb10e8f0cf27e" }
+dependencies = [
+    { name = "odoo" },
+]
+
+[[package]]
+name = "odoo-addon-res-partner-mastodon-link"
+version = "18.0.1.0.0"
+source = { git = "https://github.com/OCA/social?subdirectory=res_partner_mastodon_link&rev=refs%2Fpull%2F1870%2Fhead#c11797a10410e8d2625761d1cd7264b331a2c4d0" }
+dependencies = [
+    { name = "odoo" },
+    { name = "odoo-addon-base-fontawesome" },
 ]
 
 [[package]]

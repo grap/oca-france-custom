@@ -6,4 +6,6 @@ odoo-addon-account-statement-import-in-invoice @ git+https://github.com/akretion
 odoo-addon-website-company-mastodon-link @ git+https://github.com/OCA/website@refs/pull/1141/head#subdirectory=website_company_mastodon_link
 odoo-addon-website_social_media_link @ git+https://github.com/OCA/website@refs/pull/1170/head#subdirectory=website_social_media_link
 odoo-addon-website_membership_non_paid_member @ git+https://github.com/OCA/vertical-association@refs/pull/221/head#subdirectory=website_membership_non_paid_member
+odoo-addon-res_partner_linkedin_link @ git+https://github.com/OCA/social@refs/pull/1869/head#subdirectory=res_partner_linkedin_link
+odoo-addon-res_partner_mastodon_link @ git+https://github.com/OCA/social@refs/pull/1870/head#subdirectory=res_partner_mastodon_link
 backports-datetime-fromisoformat; python_version < '3.11'

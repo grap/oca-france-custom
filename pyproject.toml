@@ -44,6 +44,8 @@ dependencies = [
   "odoo-addon-res_company_mastodon_link==18.0.*",
   "odoo-addon-website_social_media_link==18.0.*",
   "odoo-addon-website_membership_non_paid_member==18.0.*",
+  "odoo-addon-res_partner_linkedin_link==18.0.*",
+  "odoo-addon-res_partner_mastodon_link==18.0.*",
   # Addons that are not declared in manifests because we don't want
   # them installed automatically.
 ]
@@ -84,6 +86,8 @@ odoo-addon-account_statement_import_in_invoice = { git = "https://github.com/akr
 odoo-addon-website_social_media_link = { git = "https://github.com/OCA/website", rev = "refs/pull/1170/head", subdirectory = "website_social_media_link" }
 odoo-addon-website_company_mastodon_link = { git = "https://github.com/OCA/website", rev = "refs/pull/1141/head", subdirectory = "website_company_mastodon_link" }
 odoo-addon-website_membership_non_paid_member = { git = "https://github.com/OCA/vertical-association", rev = "refs/pull/221/head", subdirectory = "website_membership_non_paid_member" }
+odoo-addon-res_partner_linkedin_link = { git = "https://github.com/OCA/social", rev = "refs/pull/1869/head", subdirectory = "res_partner_linkedin_link" }
+odoo-addon-res_partner_mastodon_link = { git = "https://github.com/OCA/social", rev = "refs/pull/1870/head", subdirectory = "res_partner_mastodon_link" }
 
 # Example to develop module from an other repository
 # installing in editable mode
